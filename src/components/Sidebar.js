@@ -11,7 +11,6 @@ import { CartContext } from "../contexts/CartContext";
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
   const { cart, clearCart, totalPrice, itemAmount } = useContext(CartContext);
-  // console.log(useContext(CartContext));
   return (
     <div
       className={`${
@@ -56,9 +55,7 @@ const Sidebar = () => {
           className="bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium"
         >
           View all products
-          
         </Link>
-
       </div>
     </div>
   );

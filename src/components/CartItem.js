@@ -32,8 +32,7 @@ const CartItem = ({ item }) => {
             <div className="flex flex-1 max-w-[100px] items-center h-full text-primary font-medium border ">
               <div
                 onClick={() => decreaseAmount(id)}
-                className="flex-1  flex justify-center items-center cursor-pointer  h-full"
-              >
+                className="flex-1  flex justify-center items-center cursor-pointer  h-full">
                 <IoMdRemove />
               </div>
               <div className="h-full flex justify-center items-center px-2">

@@ -30,8 +30,7 @@ const Header = () => {
         </Link>
         <div
           onClick={() => setIsOpen(!isOpen)}
-          className="cursor-pointer flex relative "
-        >
+          className="cursor-pointer flex relative ">
           <BsBag className="text-2xl" />
           <div className="bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center">
             {itemAmount}

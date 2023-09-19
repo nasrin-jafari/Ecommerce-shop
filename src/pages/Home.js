@@ -14,6 +14,7 @@ const Home = () => {
     );
   });
   // console.log(filteredProducts);
+
   return (
     <div>
       <Hero />
